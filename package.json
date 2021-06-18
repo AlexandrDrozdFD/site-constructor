@@ -1,17 +1,20 @@
 {
   "name": "site-constructor",
   "version": "1.0.0",
-  "description": "",
+  "description": "js-project",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/AlexandrDrozdFD/site-constructor.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "js"
+  ],
+  "author": "me",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/AlexandrDrozdFD/site-constructor/issues"

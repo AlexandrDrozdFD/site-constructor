@@ -4,8 +4,8 @@
   "description": "js-project",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel index.html",
-    "build": "parcel build index.html"
+    "dev": "parcel ./src/index.html -p 3223 --open",
+    "build": "parcel build ./src/index.html"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
   "homepage": "https://github.com/AlexandrDrozdFD/site-constructor#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "main.css": "^2.1.0"
   }
 }

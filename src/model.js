@@ -9,7 +9,7 @@ export const model = [
   new TitleBlock('Site Constructor with pure JavaScript', {
     tag: 'h2',
     styles: {
-      background: 'linear-gradient(to right, #ff0099, #493240)',
+      background: 'linear-gradient(to right, darkblue, orange)',
       color: '#fff',
       padding: '1.5rem',
       'text-align': 'center'
@@ -31,7 +31,7 @@ export const model = [
   new TextBlock(text, {
     styles: {
       background: 'linear-gradient(to left, #f2994a, #f2c94c)',
-      padding: '1rem',
+      padding: '1rem 2rem',
       'font-weight': 'bold'
     }
   }),

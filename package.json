@@ -1,0 +1,29 @@
+{
+  "name": "site-constructor",
+  "version": "1.0.0",
+  "description": "js-project",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel ./src/index.html -p 3223 --open",
+    "build": "parcel build ./src/index.html --no-source-maps"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlexandrDrozdFD/site-constructor.git"
+  },
+  "keywords": [
+    "js"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexandrDrozdFD/site-constructor/issues"
+  },
+  "homepage": "https://github.com/AlexandrDrozdFD/site-constructor#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "main.css": "^2.1.0"
+  }
+}
